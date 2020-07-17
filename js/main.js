@@ -410,27 +410,27 @@ var mobileToggleClick = function() {
 
 
 // navigation
-var onePageNavigation = function() {
-  var navToggler = $('.site-menu-toggle');
- 	$("body").on("click", ".unslate_co--site-nav .site-nav-ul li a[href^='#'], .smoothscroll[href^='#'], .unslate_co--site-mobile-menu .site-nav-wrap li a[href^='#']", function(e) {
+//var onePageNavigation = function() {
+//  var navToggler = $('.site-menu-toggle');
+// 	$("body").on("click", ".unslate_co--site-nav .site-nav-ul li a[href^='#'], .smoothscroll[href^='#'], .unslate_co--site-mobile-menu .site-nav-wrap li a[href^='#']", function(e) {
     
-    e.preventDefault();
+//    e.preventDefault();
 
-    var $body = $('body');
-    if ( $body.hasClass('offcanvas')  ) {
-    	$body.removeClass('offcanvas');
-    	$('body').find('.js-burger-toggle-menu').removeClass('open');
-    }
+//    var $body = $('body');
+//    if ( $body.hasClass('offcanvas')  ) {
+//    	$body.removeClass('offcanvas');
+//    	$('body').find('.js-burger-toggle-menu').removeClass('open');
+//    }
 
-    var hash = this.hash;
+//    var hash = this.hash;
     
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, 'easeInOutExpo');
+//      $('html, body').animate({
+//        scrollTop: $(hash).offset().top
+//      }, 1000, 'easeInOutExpo');
 
-  });
+//  });
 
-};
+//};
 
 
 // load ajax page
