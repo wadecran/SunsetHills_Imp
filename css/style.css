@@ -6,6 +6,7 @@ body {
   line-height: 30px;
   font-weight: 300;
   position: relative;
+  height: 800px;
 }
 
 body:before {
@@ -2098,4 +2099,65 @@ span.error {
 
 input {
     width:150px;
+}
+
+.buildings-wrap {
+    float: left;
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.building {
+    width: 10%;
+    height: 50px;
+    background: #888;
+    float: left;
+    margin: 1%;
+    transition: height 2s;
+    bottom: 0;
+    position: absolute;
+}
+
+.two {
+    left: 12%;
+}
+
+.three {
+    left: 24%;
+}
+
+.four {
+    left: 36%;
+}
+.five {
+    left: 48%;
+}
+
+.six {
+    left: 60%;
+}
+
+.seven {
+    left:72%;
+}
+
+.eight {
+    left:84%;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align:center;
 }
