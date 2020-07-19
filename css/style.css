@@ -2122,6 +2122,10 @@ input {
     position: absolute;
 }
 
+.building.one {
+    background: #2ba727;
+}
+
 .two {
     left: 12%;
 }

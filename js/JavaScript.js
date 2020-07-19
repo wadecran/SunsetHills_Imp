@@ -58,20 +58,18 @@ $("input").on("change", function () {
     $('.building.seven').height(nums[6]*50);
     $('.building.eight').height(nums[7]*50);
 
-    let highest = 0;
+    let highest = 0
     
 
-    for (let n = 0; n < nums.length; n++) {
+    for (let n = 1; n < nums.length; n++) {
         if (nums[n] > highest) {
             highest = nums[n];
             $(`.building${buildings[n]}`).css("background-color", "#2ba727");
         }
-        if (nums[n] <= highest) {
+        else{
             $(`.building${buildings[n]}`).css("background-color", "#888");
         }
     }
-
-    nums = [];
 });
 
 $("#btnClear").on("click", function () {
