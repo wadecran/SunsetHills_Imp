@@ -61,7 +61,7 @@ $("input").on("change", function () {
     let highest = 0
     
 
-    for (let n = 1; n < nums.length; n++) {
+    for (let n = 0; n < nums.length; n++) {
         if (nums[n] > highest) {
             highest = nums[n];
             $(`.building${buildings[n]}`).css("background-color", "#2ba727");
