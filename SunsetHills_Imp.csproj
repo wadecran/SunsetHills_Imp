@@ -88,6 +88,7 @@
     <Content Include="css\vendor\owl.carousel.min.css" />
     <Content Include="images\divider.png" />
     <Content Include="images\favicon.ico" />
+    <Content Include="images\skyline.png" />
     <Content Include="Index.html" />
     <Content Include="js\JavaScript.js" />
     <Content Include="js\main.js" />

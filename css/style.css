@@ -5,8 +5,8 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
-  position: relative;
-  height: 800px;
+ /* position: relative;*/
+  
 }
 
 body:before {
@@ -687,10 +687,11 @@ a, a:hover {
 }
 
 .cover-v1 {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: repeat;
-  width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    width: 100%;
+    background-image: url('../images/skyline.png');
 }
 
 .cover-v1.gradient-bottom-black {
